@@ -1,0 +1,16 @@
+Docs para mañana:
+G.Integración:
+	- Acta de constitución (project charter) 
+		- Enunciado del proyecto (Project Statement of Work).
+		- Caso negocio(business case).
+		- Acuerdos, factores ambientales.
+	- Plan de dirección de proyecto (project Management plan)
+		- Acta de constitución
+		
+
+G.Alcance:
+	- Plan de gestión del alcance (scope Mgmt plan)
+	- Plan de gestión de los requisitos(requirements Mgmt Plan)
+	- Enunciado de alcance de proyecto (Project Scope Statement)
+	- WBS
+	- WBS Dictionary
