@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Cronograma" company="Donatel" webLink="http://" view-date="2016-10-03" view-index="0" gantt-divider-location="600" resource-divider-location="555" version="2.8.1" locale="es">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="391" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="96" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="94" order="2"/>
+        <option id="color.recent"><![CDATA[#ccccff #cccccc #cc00cc #009900 #ffff00 #ff0033 #6600ff #f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="399" order="0"/>
+        <field id="1" name="Función" width="137" order="1"/>
+        <field id="tpc0" name="" width="15" order="2"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Years Day]]></date>
+        <date year="" month="1" date="6" type="HOLIDAY"><![CDATA[Epiphany]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="" month="10" date="12" type="HOLIDAY"><![CDATA[Hispanic Day]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[All Saints Day]]></date>
+        <date year="" month="12" date="6" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="" month="12" date="8" type="HOLIDAY"><![CDATA[Immaculate Conception Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="" month="12" date="26" type="HOLIDAY"><![CDATA[Christmas Day (in lieu)]]></date>
+        <date year="2016" month="3" date="24" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2016" month="3" date="25" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="1.1.Acta de constitución del proyecto" color="#6600ff" meeting="false" start="2016-10-03" duration="2" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="2.1. Plan de gestion del alcance" color="#6600ff" meeting="false" start="2016-10-05" duration="7" complete="0" expand="true"/>
+        <task id="5" name="2.1.1. Definicion del alcance" color="#6600ff" meeting="false" start="2016-10-05" duration="2" complete="0" expand="true"/>
+        <task id="7" name="2.1.2. Recopilacion de requisitos" color="#6600ff" meeting="false" start="2016-10-05" duration="2" complete="0" expand="true"/>
+        <task id="9" name="2.1.3. Estructura del Desglose del Trabajo" color="#6600ff" meeting="false" start="2016-10-11" duration="2" complete="0" expand="true"/>
+        <task id="11" name="2.2 Plan de gestión temporal" color="#6600ff" meeting="false" start="2016-10-14" duration="3" complete="0" expand="true"/>
+        <task id="13" name="2.3. Plan de Gestion de los costes" color="#ff0033" meeting="false" start="2016-10-14" duration="3" complete="0" expand="true"/>
+        <task id="134" name="2.3.1 Control de Costes" color="#8cb6ce" meeting="false" start="2016-10-19" duration="62" complete="0" expand="true"/>
+        <task id="15" name="2.4. Plan de Gestion Calidad" color="#009900" meeting="false" start="2016-10-19" duration="3" complete="0" expand="true"/>
+        <task id="18" name="2.4.1. Definicion de protocolos de calidad" color="#009900" meeting="false" start="2016-10-19" duration="3" complete="0" expand="true"/>
+        <task id="133" name="2.4.2. Control de la Calidad" color="#8cb6ce" meeting="false" start="2016-10-24" duration="59" complete="0" expand="true"/>
+        <task id="21" name="2.5. Plan de Gestion de Recursos Humanos" color="#cc00cc" meeting="false" start="2016-10-19" duration="2" complete="0" expand="true"/>
+        <task id="23" name="2.5.1. Responsabilidades" color="#cc00cc" meeting="false" start="2016-10-19" duration="1" complete="0" expand="true"/>
+        <task id="25" name="2.5.2.Administrar recursos humanos" color="#cc00cc" meeting="false" start="2016-10-21" duration="60" complete="0" expand="true"/>
+        <task id="29" name="2.6. Plan para la gestion de comunicacion" color="#cc00cc" meeting="false" start="2016-10-21" duration="3" complete="0" expand="true"/>
+        <task id="31" name="2.6.1. Elaboración plano de comunicaciones con interesados" color="#cc00cc" meeting="false" start="2016-10-21" duration="3" complete="0" expand="true"/>
+        <task id="135" name="2.6.2. Control de las Comunicaciones" color="#8cb6ce" meeting="false" start="2016-10-26" duration="57" complete="0" expand="true"/>
+        <task id="35" name="2.7. Plan de gestion de riesgos" color="#ffff00" meeting="false" start="2016-10-26" duration="15" complete="0" expand="true"/>
+        <task id="37" name="2.7.1. Identificacion de los riesgos" color="#ffff00" meeting="false" start="2016-10-26" duration="3" complete="0" expand="true"/>
+        <task id="38" name="2.7.2. Analisis cualitativo de los riesgos" color="#ffff00" meeting="false" start="2016-10-31" duration="4" complete="0" expand="true"/>
+        <task id="39" name="2.7.3. Analisis cuantitativo de los riesgos" color="#ffff00" meeting="false" start="2016-11-04" duration="5" complete="0" expand="true"/>
+        <task id="40" name="2.7.4. Planificacion de la respuesta ante los riesgos" color="#ffff00" meeting="false" start="2016-11-11" duration="5" complete="0" expand="true"/>
+        <task id="136" name="2.7.5. Control de Riesgos" color="#8cb6ce" meeting="false" start="2016-11-18" duration="41" complete="0" expand="true"/>
+        <task id="47" name="2.8.  Plan elección empresa subcontratada diseño de red LTE" color="#6600ff" meeting="false" start="2016-11-03" duration="8" complete="0" expand="true"/>
+        <task id="48" name="2.8.1.Elaboración del pliego de contratación" color="#6600ff" meeting="false" start="2016-11-04" duration="1" complete="0" expand="true"/>
+        <task id="49" name="2.8.2.Análisis de propuestas" color="#6600ff" meeting="false" start="2016-11-07" duration="4" complete="0" expand="true"/>
+        <task id="50" name="2.8.3.Selección empresa subcontratada" color="#6600ff" meeting="false" start="2016-11-11" duration="1" complete="0" expand="true"/>
+        <task id="51" name="2.8.4.Administrar contrato empresa subcontratada" color="#6600ff" meeting="false" start="2016-11-14" duration="1" complete="0" expand="true"/>
+        <task id="52" name="3. Diseño red LTE por parte de la empresa subcontratada" color="#cccccc" meeting="false" start="2016-11-15" duration="40" complete="0" expand="true"/>
+        <task id="121" name="3.1. Seguimiento del estado de desarrollo diseño red LTE" color="#ccccff" meeting="false" start="2016-11-15" duration="40" complete="0" expand="true"/>
+        <task id="54" name="4.Plan gestión de adquisiciones" color="#ff0033" meeting="false" start="2017-01-03" duration="8" complete="0" expand="true"/>
+        <task id="55" name="4.1.Elaboracion del pliego de contratacion" color="#ff0033" meeting="false" start="2017-01-03" duration="1" complete="0" expand="true"/>
+        <task id="57" name="4.2.Selección de proveedores" color="#ff0033" meeting="false" start="2017-01-05" duration="5" complete="0" expand="true"/>
+        <task id="59" name="4.3.Administrar contratos proveedores" color="#ff0033" meeting="false" start="2017-01-13" duration="1" complete="0" expand="true"/>
+        <task id="60" name="5. Ejecución de pruebas" color="#ccccff" meeting="false" start="2017-01-16" duration="4" complete="0" expand="true"/>
+        <task id="61" name="5.1. Ajuste de equipos" color="#ccccff" meeting="false" start="2017-01-16" duration="2" complete="0" expand="true"/>
+        <task id="116" name="5.2. Pruebas de cobertura" color="#ccccff" meeting="false" start="2017-01-18" duration="2" complete="0" expand="true"/>
+        <task id="117" name="6. Proceso de cierre" color="#6600ff" meeting="false" start="2017-01-20" duration="6" complete="0" expand="true"/>
+        <task id="118" name="6.1 Generación de informe técnico económico" color="#6600ff" meeting="false" start="2017-01-20" duration="6" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="" type="text"/>
+        <resource id="0" name="Ana" function="2" contacts="" phone=""/>
+        <resource id="1" name="Miguel" function="7" contacts="" phone=""/>
+        <resource id="2" name="Alvaro" function="8" contacts="" phone=""/>
+        <resource id="3" name="Ionut (Gestor RRHH)" function="3" contacts="" phone=""/>
+        <resource id="5" name="Ionut (Encargado de Comunicaciones)" function="5" contacts="" phone=""/>
+        <resource id="4" name="Roberto" function="4" contacts="" phone=""/>
+        <resource id="6" name="Carlos" function="6" contacts="" phone=""/>
+        <resource id="7" name="Comercial Junior" function="Default:0" contacts="" phone=""/>
+        <resource id="9" name="Analista de Riesgos Junior" function="Default:0" contacts="" phone=""/>
+        <resource id="10" name="Analista Departamento Comunicaciones y RRHH Jr" function="Default:0" contacts="" phone=""/>
+        <resource id="11" name="Analista Departamento Calidad Junior" function="Default:0" contacts="" phone=""/>
+        <resource id="12" name="Empresa subcontratada" function="Default:0" contacts="" phone=""/>
+        <resource id="13" name="Ingeniero de Telecomunicaciones Junior" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="47" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="49" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="50" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="51" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="117" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="118" resource-id="0" function="Default:0" responsible="true" load="90.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="136" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="134" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="133" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="135" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="121" resource-id="0" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="57" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="134" resource-id="1" function="7" responsible="false" load="90.0"/>
+        <allocation task-id="49" resource-id="1" function="7" responsible="false" load="10.0"/>
+        <allocation task-id="55" resource-id="1" function="7" responsible="true" load="20.0"/>
+        <allocation task-id="35" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="37" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="38" resource-id="2" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="39" resource-id="2" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="40" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="136" resource-id="2" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="21" resource-id="3" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="23" resource-id="3" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="25" resource-id="3" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="29" resource-id="5" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="31" resource-id="5" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="135" resource-id="5" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="15" resource-id="4" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="133" resource-id="4" function="4" responsible="false" load="70.0"/>
+        <allocation task-id="49" resource-id="4" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="1" resource-id="6" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="5" resource-id="6" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="7" resource-id="6" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="9" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="47" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="48" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="49" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="50" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="51" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="52" resource-id="6" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="121" resource-id="6" function="Default:0" responsible="true" load="70.0"/>
+        <allocation task-id="60" resource-id="6" function="Default:0" responsible="false" load="60.0"/>
+        <allocation task-id="61" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="116" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="133" resource-id="6" function="6" responsible="false" load="20.0"/>
+        <allocation task-id="13" resource-id="7" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="54" resource-id="7" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="55" resource-id="7" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="57" resource-id="7" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="59" resource-id="7" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="35" resource-id="9" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="37" resource-id="9" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="38" resource-id="9" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="39" resource-id="9" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="40" resource-id="9" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="29" resource-id="10" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="31" resource-id="10" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="21" resource-id="10" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="23" resource-id="10" function="Default:0" responsible="false" load="60.0"/>
+        <allocation task-id="15" resource-id="11" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="18" resource-id="11" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="52" resource-id="12" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="12" function="Default:0" responsible="false" load="60.0"/>
+        <allocation task-id="61" resource-id="12" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="116" resource-id="12" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="1" resource-id="13" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="5" resource-id="13" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="7" resource-id="13" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="9" resource-id="13" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="47" resource-id="13" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="48" resource-id="13" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="49" resource-id="13" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="50" resource-id="13" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="51" resource-id="13" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="60" resource-id="13" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="61" resource-id="13" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="116" resource-id="13" function="Default:0" responsible="false" load="20.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="0"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="1"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="2"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="3"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="5"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="4"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="6"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="7"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="9"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="10"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="11"/>
+        <vacation start="2016-12-23" end="2017-01-03" resourceid="13"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name=""/>
+        <role id="2" name="Project Manager"/>
+        <role id="3" name="Gestor RRHH"/>
+        <role id="4" name="Encargado de Calidad"/>
+        <role id="5" name="Encargado de Comunicaciones"/>
+        <role id="6" name="Ingeniero de Telecomunicaciones"/>
+        <role id="7" name="Comercial"/>
+        <role id="8" name="Analista de Riesgos"/>
+    </roles>
+</project>
