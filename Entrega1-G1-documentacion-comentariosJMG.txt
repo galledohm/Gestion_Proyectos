@@ -1,0 +1,130 @@
+Al avanzar en el análisis de lo entregado me he dado cuenta del
+batiburrillo de docs que habéis entregado. Pongo OLD delante de los
+comentarios que ya había escrito analizando docs previos al que supongo
+que es el "bueno". 
+
+Sobre la documentación entregada:
+
++ Empaquetad todo en un único fichero comprimido, para facilitar nuestra
+  descarga y separación de documentación de grupos.
+
++ OLD Veo que no habéis usado una plantilla "estándar", con portada,
+  índice, cabecera y pié de página, numeración de apartados, etc. Es más
+  que recomendable hacerlo, por coherencia documental y por
+  estructuración (de documentos y de "hábitos de trabajo").
+
++ OLD Añadid una página adicional a cada documento (a las actas de reuniones
+  no es necesario) indicando la versión, la secuencia de cambios, y
+  quién tocó qué en cada una.
+
++ OLD Os sugiero numerar (numeración legal) los apartados de cada documento,
+  para facilitar la visualización de la estructura y el seguimiento de
+  los lectores. El índice que generéis automáticamente también será más
+  legible. Es difícil seguir ahora la estructura cuando lo estás leyendo.
+
+
++ Project charter (documento separado):
+
+  - Bien contexto empresa
+
+  - Fecha inicio y fin iguales???????????????????????????
+
+  - No pongáis cosas con XXXX en los docs.
+
+  - Alcance se refiere al proyecto concreto, no a la descripción general
+    de que haréis planning, ejecución, implementación, formación. Podéis
+    ser más concretos porque tenéis un enunciado que es perfecto como
+    punto de partida. En requisitos sí dais más detalles, eso está mucho mejor.
+
+
+  - No hay cantidad presupuestada, debe estar, aunque sea groso modo. Si
+    no, no hay forma de acotar a dónde llegaremos en esa dimensión del
+    coste. Idem para tiempo.
+
+  - Los objetivos deberían tener asociadas métricas concretas que
+    permitan hacer comparación cuantitativa, siempre que sea posible. De
+    otro modo, es difícil decidir si está conseguido o no y en qué
+    grado. Los criterios de éxito que ponéis después deben estar ligados
+    a requisitos.
+
+  - MB riesgos
+
++ Me falta más detalle sobre los interesados. ¿No aparecen los
+  formadores?... En procesos de inicio aparece el detalle en ese área de
+  conocimiento, y aunque no se citaba explícitamente, estaría bien que
+  lo considerarais en algún momento, si tenéis tiempo.
+
++ WBS
+
+  - Ok esquema basado en secuencia temporal (en general), pero recordad
+    que no es imprescindible
+
+  - En diccionario indicáis duración... (aunque sin especificar unidad
+    temporal). Todavía no podemos hacerlo, eso se va afinando en futuras
+    revisiones. Aquí lo importante es dar detalles extra de lo que se
+    trata cada actividad.
+
++ ¿Documento E1? Usad una nomenclatura también estándar para nombres de
+  fichero (eso se puede especificar en el plan de gestión del
+  proyecto). Al llegar a este doc me di cuenta de que el de charter
+  debía ser una especie de borrador: Si un doc no es útil o no es el
+  base que queréis enseñar, no lo distribuyáis.
+
+  - El título de la portada debería ser especifico en función del
+    contenido.
+
+  - En el charter de este doc sí viene el presupuesto, pero las fechas
+    ini y fin...
+
+  - Plan para la gestión del alcance debe ir delante de la definición,
+    que es uno de los entregables importantes. Recordad que parte del
+    charter incluyendo info más detallada.
+
+  - Ojo con la estructura del índice: no es PMBOK. En el apartado 3, el
+    título es misleading, debería ser "Gestión de la
+    integración". Fijaos también en apartado 4: debería tener un
+    apartado por cada uno de los entregables: Plan de gestión del
+    alcance, plan de gestión de requisitos, documentación de requisitos,
+    matriz de trazabilidad de requisitos, enunciado del alcane del
+    proyecto, línea base del alcance (esa es mezcla de dos previas)...
+
++ Ojito con la confusión: consejería verus conseRjería... Si a los
+  consejeros les llamáis conserjes, os van a mirar muy muy mal...
+
++ En el documento de EDT jerárquico: el esquema en árbol no coincide con
+  el jerárquico. Check subactividades de la 1 y de la 3. Tenéis que ser
+  muy rigurosos en el mundo real, un detalle de este tipo os restará
+  credibilidad de cara a cualquier cliente.
+
++ En matriz de trazabilidad: ojo reuniones no son entregables. El acta
+  de la misma sí lo sería. Falta concreción en los criterios, pero no es
+  problema en este punto, durante la ejecución y en fases sucesivas se
+  iría refinando.
+
++ Recordad: seguid estrictamente PMBOK para ver los procesos que tocan,
+  sus entradas, y, sobre todo, sus salidas, que son los docs que tenéis
+  que presentar. Eso os ayuda a definir el índice.
+
++ El plan de gestión del proyecto ha quedado un poco desdibujado: en el
+  material del caso práctico del project charter tenéis sugerencias para
+  enfocarlo.
+
++ En el plan para la gestión del alcance, deberíais definir con
+  precisión cada cuánto serán las distintas reuniones que haréis, cada
+  cuánto se entregarán docs, etc.
+
++ Deberías hablar del procedimiento de aceptación, en el que hay que
+  definir la implicación del cliente, que TIENE que estar implicado,
+  dado que es quien decide finalmente si le vale o no. 
+
++ Id incorporando detalles más finos en el plan de gestión del alcance
+  según avancéis en los distintos entregables (si tenéis tiempo, o por
+  lo menos indicad en las charlas siguientes que lo habríais
+  hecho). Cada iteración en la que avancéis en un proyecto del mundo
+  real implicaría actualizar documentos varios.
+
+
++ No hay mapa de procesos.
+
+
+Ánimo con el trabajo!!!!
