@@ -1,0 +1,4 @@
+Falta añadir en el archivo de memoria:
+- Lista de oportunidades
+- Lista de riesgos
+- Análisis cualitativo, añadir mas riesgos. 
